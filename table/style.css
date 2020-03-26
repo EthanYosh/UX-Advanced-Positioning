@@ -1,0 +1,68 @@
+/* Add your CSS Below */
+table{
+    min-width: 325px;
+    font-size: 14px;
+    margin: 50px;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+
+th:first-child {
+    border-radius: 6px 0 0 0;
+  }
+
+th:last-child {
+    border-radius: 0 6px 0 0;
+  }
+
+th:only-child{
+    border-radius: 6px 6px 0 0;
+  }
+
+
+
+
+tr th:nth-child(1){
+    text-align: right;
+}
+
+tr th:nth-child(2){
+    text-align: left;
+}
+
+tr th:nth-child(3){
+    text-align: right;
+}
+
+
+
+
+tr td:nth-child(1){
+    text-align: right;
+}
+
+tr td:nth-child(2){
+    text-align: left;
+}
+
+tr td:nth-child(3){
+    text-align: right;
+}
+
+
+tr:nth-child(odd){
+    background-color: #F2F2F2;
+}
+
+tr:nth-child(1){
+    background-color: darkgreen;
+    color: white;
+    font-weight: bold;
+}
+
+th, td {
+    padding: 8px;
+}
+

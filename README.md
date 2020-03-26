@@ -1,2 +1,2 @@
-# UX-Advanced-Positioning
-Displays usage of tables and advanced positioning techniques.
+## advanced-positioning
+Use this repo to practice advanced positioning in CSS.
